@@ -1,0 +1,193 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Onest", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Header */
+.hero {
+    background-color: #eef6ed;
+    padding: 30px 20px;
+}
+.hero .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+.text-container {
+    max-width: 600px;
+    text-align: justify;
+}
+.text-container h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #4caf50;
+    font-family: "Paprika", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.text-container span {
+    color: #2e7d32;
+}
+.hero-image {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.btn-inscrever {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Cronograma */
+.cronograma {
+    padding: 30px 20px;
+    text-align:center;
+}
+.cronograma h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-family: paprika;
+}
+.aulas {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+    align-items: center; 
+}
+.aula {
+    background: #addab1;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 1000px; 
+    width: 100%; 
+}
+
+.aula h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.aula p{
+    text-align: left;
+    font-size: 1.05rem;
+
+}
+.btn-demas {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Imagens Destaque */
+.imagens-destaque {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 25px;
+    padding: 30px 20px;
+}
+.imagem-item img {
+    width: 80%;
+    border-radius: 10px;
+    
+}
+.imagem-item-1 img {
+    width: 76%;
+    border-radius: 10px;
+}
+
+/* Feedback */
+.feedback {
+    padding: 30px 20px;
+}
+.feedback h2{
+    font-family: paprika;
+}
+.feedback-container {
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap;
+    gap: 20px; 
+    justify-content: center; 
+    margin-top: 20px; 
+}
+.feedback-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 300px;
+    width: 100%; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.feedback-form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.feedback-form textarea {
+    width: 100%;
+    max-width: 600px;
+    height: 80px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    background-color:#addab1;
+    font-family:onest;
+    color: #333;
+}
+
+.feedback-form button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    background: #4caf50;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+footer a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+@media (max-width: 768px) {
+    .feedback-container {
+        flex-direction: column;
+        align-items: center; 
+    }
+}
